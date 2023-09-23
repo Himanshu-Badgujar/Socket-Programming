@@ -3,7 +3,7 @@ project(Networking_Project)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Networking_Project_Server main.cpp)
+add_executable(Server server.cpp)
 
 # Link the required libraries for sockets (on Linux)
-target_link_libraries(Networking_Project_Server pthread)
+target_link_libraries(Server pthread)

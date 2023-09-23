@@ -11,7 +11,7 @@ int main()
     int serverSocket = socket(AF_INET, SOCK_STREAM, 0);
     if (serverSocket == -1)
     {
-        perror("Socket setup failed");
+        perror("Socket setup failed!");
         return 1;
     }
     else
@@ -28,7 +28,7 @@ int main()
     // Step 3 - Bind the socket to the server address
     if (bind(serverSocket, (struct sockaddr *)&serverService, sizeof(serverService)) == -1)
     {
-        perror("Binding process failed");
+        perror("Binding process failed!");
         close(serverSocket);
         return 1;
     }
@@ -40,7 +40,7 @@ int main()
     // Step 4 - Listen for incoming connections
     if (listen(serverSocket, 1) == -1)
     {
-        perror("Listening process failed");
+        perror("Listening process failed!");
         close(serverSocket);
         return 1;
     }
@@ -53,7 +53,7 @@ int main()
     int acceptSocket = accept(serverSocket, nullptr, nullptr);
     if (acceptSocket == -1)
     {
-        perror("Failed to accept connection");
+        perror("Failed to accept connection!");
         close(serverSocket);
         return 1;
     }

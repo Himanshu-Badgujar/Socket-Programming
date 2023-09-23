@@ -12,7 +12,7 @@ int main()
     int clientSocket = socket(AF_INET, SOCK_STREAM, 0);
     if (clientSocket == -1)
     {
-        cout << "Socket setup failed." << endl;
+        cout << "Socket setup failed!" << endl;
         return 1;
     }
     else
@@ -29,7 +29,7 @@ int main()
     // Step 3: Attempt to establish a connection to the server
     if (connect(clientSocket, (struct sockaddr*)&clientService, sizeof(clientService)) == -1)
     {
-        cout << "Connecting process failed." << endl;
+        cout << "Connecting process failed!" << endl;
         close(clientSocket);
         return 1;
     }
