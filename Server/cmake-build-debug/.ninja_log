@@ -1,0 +1,8 @@
+# ninja log v5
+177	250	1695469075434038140	Networking_Project_Server	d30480b8dfabd29b
+4	249	1695480157671497139	build.ninja	115e82e7d1813ed
+0	177	1695469075362036613	CMakeFiles/Networking_Project_Server.dir/main.cpp.o	cd1797779009c016
+1340	1481	6888383536744341	Networking_Project.exe	6e2c9ead79c6021f
+3274	3797	6896913962630149	Networking_Project_Server.exe	3d42d612ed310a97
+1	201	1695480162751614632	CMakeFiles/Networking_Project_Server.dir/main.cpp.o	b62b613d1d1fa60b
+201	272	1695480162823616297	Networking_Project_Server	d30480b8dfabd29b

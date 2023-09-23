@@ -1,0 +1,6 @@
+# ninja log v5
+1898	2208	6888397829250692	Networking_Project_Client.exe	a292036db96b0605
+1	183	1695469122767064314	CMakeFiles/Networking_Project_Client.dir/main.cpp.o	1c67cc53846a1b59
+183	259	1695469122843065996	Networking_Project_Client	190ccadd05f5550f
+1	181	1695480147791268528	CMakeFiles/Networking_Project_Client.dir/main.cpp.o	67a066fcdcdae612
+181	254	1695480147863270194	Networking_Project_Client	190ccadd05f5550f

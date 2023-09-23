@@ -1,0 +1,3 @@
+/home/himbad/CLionProjects/SocketProgramming/Client/cmake-build-debug/CMakeFiles/Networking_Project_Client.dir
+/home/himbad/CLionProjects/SocketProgramming/Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/himbad/CLionProjects/SocketProgramming/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
