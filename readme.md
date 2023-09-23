@@ -11,7 +11,7 @@ This project was created as part of my assignment for the Bus System subject. It
 
 ## Usage
 
-- git clone '''git@github.com:Himanshu-Badgujar/SocketProgramming.git'''
+- git clone 'git@github.com':Himanshu-Badgujar/SocketProgramming.git
 - cd Client/
 - g++ client.cpp -o client
 - cd ..
