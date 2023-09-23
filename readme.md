@@ -1,7 +1,5 @@
 # Bus System Assignment
 
-This is my assignment project for the Bus System subject.
-
 ## Description
 
 This project was created as part of my assignment for the Bus System subject. It implements a basic client application in C++ that establishes a socket connection with a server. The assignment's goal was to demonstrate an understanding of socket programming concepts and the client-server communication model.
